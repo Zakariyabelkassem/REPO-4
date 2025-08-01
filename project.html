@@ -9,29 +9,92 @@
     <link rel="stylesheet" href="project.css">
     <title>MY PROJECT</title>
 </head>
+
+
 <body>
  
-    <!-- start header -->
+
+
+
+    <div class="did">
+        <h1></h1>
+        <ul>
+            <li>cheking the connection</li>
+            <li>checking the proxy and the firewall</li>
+            <li>Rumming Windows Network Diagnostics</li>
+        </ul>
+        <button class="ofline">Reload</button>
+    </div>
+
+    <section  class="all">
+        <button id="to">
+            To Top
+        </button>
+        <!-- start header -->
     <header>
         <nav>
             <ul>
-                <li><a href="Home">Home</a></li>
-                <li><a href="sec1">Aboout</a></li>
-                <li><a href="sec2">Menu</a></li>
-                <li><a href="sec3">Landing</a></li>
-                <li><a href="sec4">Team</a></li>
-                <li><a href="sec5">Contact</a></li>
+                <li><a href="#Home">Home</a></li>
+                <li><a href="#sec1">Aboout</a></li>
+                <li><a href="#sec2">Menu</a></li>
+                <li><a href="#sec3">Landing</a></li>
+                <li><a href="#sec4">Team</a></li>
+                <li><a href="#sec5">Contact</a></li>
             </ul>
+            <li id="so"><i class='bx bx-search'></i></li>
+            <li id="sos"><i class='bx bx-user'></i></li>
+            <li id="clic"><i class='bx bx-brightness-half'></i></li>
         </nav>
+        
+        <button id="jes">
+            <i class='bx bx-align-right' id="i2"></i>
+            <i class='bx bx-x' id="i1"></i>
+
+        </button>
+        <div class="nov">
+            <ul>
+                 <li><a href="#Home">Home</a></li>
+                <li><a href="#sec1">Aboout</a></li>
+                <li><a href="#sec2">Menu</a></li>
+                <li><a href="#sec3">Landing</a></li>
+                <li><a href="#sec4">Team</a></li>
+                <li><a href="#sec5">Contact</a></li>
+            </ul>
+            
+        </div>
+        <div class="hidegrand ">
+            <div class="hide2">
+                   <input id="texteur" type="text" placeholder="search here">
+            <li id="co"><i class='bx bx-search-alt'></i></li>
+            </div>
+         
+             
+
+        </div>
     </header>
     <!-- end header -->
 
     <!-- start section -->
-
+     <div id="userr">
+         <div id="user">
+      
+       <div class="containerjs">
+          <h1>Your Account</h1>
+        <label for="Email">Email</label>
+        <input type="text" placeholder="Your Email" class="in1">
+        <label for="Password">Password</label>
+        <input type="text" placeholder="Password" class="in1">
+        <label for="Number Phone">Number phone</label>
+        <input type="text" placeholder="Number phone" class="in1">
+        <button id="login" type="submit">LOG IN</button>
+       </div>
+    </div>
+     </div>
+   
     <section id="Home">
         <div class="content1">
             <h6>NEW RESTAURANT</h6>
-            <h1><span>Welcome</span> to  <br>The World of <br> Testy & Fresh Food.</h1>
+            <h2><span>Welcome</span> to  <br>The World of <br> Testy & Fresh Food.</h2>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.<br> Inventore ea beatae neque voluptate. At sunt obcaecati <br> Reiciendis voluptas in dicta tenetur id ipsa corrupti .</p>
             <div class="search">
                 <input id="ser" type="search" placeholder="Search">
@@ -77,6 +140,52 @@
 
 <!-- end section 1 -->
 
+
+
+<!-- slider section  -->
+
+<section id="sliderpirent">
+<div class="sliders">
+    <div class="perslid active">
+         <div class="slider">
+        <div class="image">   <img src="1.jpg" ></div>
+        <p><span id="sipo1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis corporis
+             inventore earum accusantium delectus, maxime,</span> harum molestias quas suscipit 
+             expedita modi porro, odio aliquam recusandae laborum voluptas. Voluptatum, sed quas.</p>
+             <h2>OUR RESTAURANT</h2>
+    </div>
+</div>
+
+     <div class="perslid " > <div class="slider">
+        <div class="image">   <img src="2.jpg" ></div>
+        <p><span id="sipo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis corporis
+             inventore earum accusantium delectus, maxime,</span> harum molestias quas suscipit 
+             expedita modi porro, odio aliquam recusandae laborum voluptas. Voluptatum, sed quas.</p>
+             <h2>OUR RESTAURANT</h2>
+    </div></div>
+
+     <div class="perslid"> <div class="slider">
+        <div class="image">   <img src="3.jpg" ></div>
+        <p><span id="sipo2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis corporis
+             inventore earum accusantium delectus, maxime,</span> harum molestias quas suscipit 
+             expedita modi porro, odio aliquam recusandae laborum voluptas. Voluptatum, sed quas.</p>
+             <h2>OUR RESTAURANT</h2>
+    </div></div>
+   
+  <button id="left">«</button>
+<button id="right">»</button>
+</div>
+
+</section>
+
+
+
+<!-- end slider section  -->
+
+
+
+
+
 <!-- start section 2 -->
 
 <section id="sec2">
@@ -115,6 +224,31 @@
 
 <!-- end section 2 -->
 
+<!-- new section for food slider js-->
+
+<section id="newsec">
+  
+ <div class="newaest">
+
+     <div class="imo1">
+        <img id="mog" src="food imag.png" >
+
+    </div>
+    <div class="allimo2">
+        <div class="imo2"><img onmouseover="get(this.src)" src="foodimag3.jpg" ></div>
+        <div class="imo2"> <img onmouseover="get(this.src)" src="foodimag5.png" ></div>
+        <div class="imo2"> <img onmouseover="get(this.src)" src="foodimag6.jpg" ></div>
+         
+           
+    </div>
+ </div>
+
+</section>
+
+
+
+<!-- end section new slider -->
+
 <!-- start section 3 -->
 
 <section id="sec3">
@@ -152,11 +286,11 @@
                 <div class="location2">
                     <h3>FOLLOW US</h3>
                     <ul>
-                           <li><i class='bx bxl-facebook'></i></li>
-                           <li><i class='bx bxl-google-plus'></i></li> 
-                           <li><i class='bx bxl-twitter'></i></li> 
-                           <li><i class='bx bxl-instagram'></i></li> 
-                           <li><i class='bx bxl-whatsapp'></i> </li>  
+                           <li id="hop"><i class='bx bxl-facebook'></i></li>
+                           <li id="hop"><i class='bx bxl-google-plus'></i></li> 
+                           <li id="hop"><i class='bx bxl-twitter'></i></li> 
+                           <li id="hop"><i class='bx bxl-instagram'></i></li> 
+                           <li id="hop"><i class='bx bxl-whatsapp'></i> </li>  
                        
                     </ul>
                 </div>
@@ -174,11 +308,11 @@
     <div class="end">
         <li><p>Design By <li><i class='bx bxl-whatsapp'></i> </li>  <span>WT Zakaria Code</span> </p></li>
     </div>
-</section>
 
-<!-- end section 5 -->
+    
 
+   
 
-
+<script src="js.js"></script>
 </body>
 </html>
